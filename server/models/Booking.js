@@ -18,6 +18,12 @@ const BookingSchema = new Schema({
         trim: true
         
     },
+    bookedBy: {
+        type: String,
+        required: true,
+        trim: true
+        
+    },
     room: {
         type: String,
         required: true,
