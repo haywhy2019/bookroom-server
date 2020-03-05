@@ -20,7 +20,6 @@ const BookingSchema = new Schema({
     },
     bookedBy: {
         type: String,
-        required: true,
         trim: true
         
     },
